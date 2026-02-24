@@ -144,6 +144,11 @@
     color: var(--gold); font-weight: 600; margin-bottom: 28px;
     animation: fadeUp 0.8s 0.3s both;
   }
+
+  .center{
+    align-content: end;
+    justify-content: center;
+  }
   .hero-tag::before { content: ''; width: 28px; height: 1px; background: var(--gold); }
   .hero-h1 {
     font-family: 'Bebas Neue', sans-serif; font-size: clamp(62px, 8vw, 120px);
